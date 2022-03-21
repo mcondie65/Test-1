@@ -7,7 +7,7 @@ var space = 5;
 var myColour = ("black");
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(windowWidth, windowHeight);
   noStroke();  
 
   c[0] = color(123, 54, 57);
